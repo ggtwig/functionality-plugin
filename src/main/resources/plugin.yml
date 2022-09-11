@@ -1,0 +1,6 @@
+name: functionality-plugin
+version: '${project.version}'
+main: com.jack.functionality.Main
+api-version: 1.16
+authors: [ Jack ]
+description: Plugin to add extra functionalities to Minecraft, including homes, tpa, messaging
