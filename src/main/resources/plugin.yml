@@ -4,3 +4,16 @@ main: com.jack.functionality.Main
 api-version: 1.16
 authors: [ Jack ]
 description: Plugin to add extra functionalities to Minecraft, including homes, tpa, messaging
+commands:
+  home:
+    description: Teleports the player to their chosen home.
+    #aliases:
+    #permission: functionality.home
+    #permission-message: §cYou do not have permission to use this!
+    usage: /<command>
+  sethome:
+    description: Sets a home with specified name at players location.
+    #aliases:
+    #permission: functionality.sethome
+    #permission-message: §cYou do not have permission to use this!
+    usage: /<command>
