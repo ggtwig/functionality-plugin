@@ -14,7 +14,6 @@ public final class Main extends JavaPlugin {
 
 
     private void registerCommands() {
-        //getCommand("").setExecutor(...);
         getCommand("sethome").setExecutor(new SetHomeCommand());
         getCommand("home").setExecutor(new HomeCommand());
     }
